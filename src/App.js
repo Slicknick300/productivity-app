@@ -3,7 +3,8 @@ import React from "react";
 import Layout from "./components/Layout/Layout";
 import UserChangePassword from "./components/ChangePassword/UserChangePassword";
 import AuthPage from "./pages/AuthPage";
-import HomePage from "./pages/HomePage";
+//import HomePage from "./pages/HomePage";
+import TasksPage from "./pages/TasksPage";
 import WelcomePage from "./pages/WelcomePage";
 
 function App() {
@@ -16,8 +17,8 @@ function App() {
 				<Route path="/auth">
 					<AuthPage />
 				</Route>
-				<Route path="/homepage">
-					<HomePage />
+				<Route path="/taskspage">
+					<TasksPage />
 				</Route>
 				<Route path="/changepassword">
 					<UserChangePassword />

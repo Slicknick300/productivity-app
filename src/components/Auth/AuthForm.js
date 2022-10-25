@@ -56,7 +56,7 @@ const AuthForm = () => {
 						</Link>
 					</div>
 					<div className={classes.actions}>
-						<Link to="/homepage">
+						<Link to="/taskspage">
 							<button
 								className={
 									classes.login_button
