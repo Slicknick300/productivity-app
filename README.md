@@ -1,9 +1,9 @@
 A task tracking web application being developed for cloud software development.
 
 Contributers:
-Shiva Mapchan
-Chloe Chung
-Nicholus Tinto
+Shiva Mapchan,
+Chloe Chung,
+Nicholus Tinto,
 Zane Atkinson
 
 Demo video of our prototype:
