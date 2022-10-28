@@ -50,9 +50,11 @@ function CreateTask({ addTask }) {
 
 function App() {
   const [tasksRemaining, setTasksRemaining] = useState(0);
+  const [tasksDone, setTasksDone] = useState(0);
   const [tasks, setTasks] = useState([]);
 
   useEffect(() => { setTasksRemaining(tasks.filter(task => !task.completed).length) });
+  useEffect(() => { setTasksDone(tasks.filter(task => task.completed).length) });
 
   const addTask = title => {
       const newTasks = [...tasks, { title, completed: false }];
@@ -82,6 +84,7 @@ function App() {
          <div className={classes.todoContainer}>
          <div className={classes.bigHeader}> Your To-Do List</div>
           <div className={classes.header}> Number of Tasks Left to Complete: ({tasksRemaining})</div>
+          <div className={classes.header}> Number of Tasks Completed: ({tasksDone})</div>
           <div className={classes.task}>
               {tasks.map((task, index) => (
                   <Task
