@@ -73,8 +73,7 @@ function App() {
       id: itemId,
       value: newText,
     };
-
-    setId(itemId);
+    
     deleteItem(id);
     setId(itemId);
 

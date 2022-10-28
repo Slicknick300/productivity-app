@@ -1,128 +1,80 @@
-.app {
-  text-align: center;
+.App {
+    text-align: center;
+    color: rgb(197, 149, 87);
+  }
+  
+  body{
+    background: wheat;
+    }
+    
+  .todoContainer{
+    margin: 1rem auto;
+    color: white;
+    font-weight: bold;
+	  width: 95%;
+	  max-width: 40rem;
+	  border-radius: 6px;
+	  background: linear-gradient(
+		to left top,
+		rgb(198, 155, 100),
+		rgb(203, 76, 76)
+	);
+	  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  	padding: 1rem;
+	  text-align: center;
 }
-
-input {
-  padding: 4px;
-  margin-right: 8px;
-}
-
-
-ul {
-  /* Remove bullet point  */
-  list-style: none;
-}
-
-.li {
-  background-color: rgba(181, 230, 107, 0.637);
-  color: green;
-  margin: 12px 0;
-}
-
-image {
-  margin-bottom: 10;
-}
-
 .icon {
 	text-align: center;
-	margin: 3rem auto;
-	color: rgb(218, 213, 92);
-	font-size: 10rem;
+	margin: 1rem auto;
+	color: rgb(197, 149, 87);
+	font-size: 5rem;
 }
-
-.highbutton {
-  background-color: rgb(248, 171, 171);
-  font-size: 10px;
-  margin-left: 12px;
-  border: red;
-  color: red;
-  border-radius: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.medbutton {
-  background-color: rgb(255, 218, 149);
-  font-size: 10px;
-  margin-left: 12px;
-  border: orange;
-  color: orange;
-  border-radius: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.lowbutton {
-  background-color: rgba(181, 230, 107, 0.637);
-  font-size: 10px;
-  margin-left: 12px;
-  border: green;
-  color: green;
-  border-radius: 4px;
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.deletebutton {
-  font-size: 10px;
-  margin-left: 8px;
-
-  border: none;
-  color: black;
-  border-radius: 4px;
-
-  padding-top: 4px;
-  padding-bottom: 4px;
-}
-
-.cont {
-  width: 350px;
-  display:inline-block;
-  height: 350px;
-  margin-top: 50px;
-  margin-left: 50px;
-  background-color: rgb(217, 214, 217);
-}
-
-.lowcont {
-  width: 350px;
-  display:inline-block;
-  height: 350px;
-  margin-top: 50px;
-  margin-left: 25px;
-  background-color: rgb(167, 215, 167);
-}
-
-.medcont {
-  width: 350px;
-  display:inline-block;
-  height: 350px;
-  margin-top: 50px;
-  margin-left: 25px;
-  background-color: rgb(255, 244, 141);
-}
-
-.highcont {
-  width: 350px;
-  display:inline-block;
-  height: 350px;
-  margin-top: 50px;
-  margin-left: 25px;
-  background-color: rgb(248, 221, 221);
-}
-
-.button {
-  border-radius: 8px;
-  font-size: 20px;
-  background-color: red;
-  color: white;
-  margin-left: 70px;
-  margin-top: 100px;
-}
-.cont2 {
-  width: 250px;
-  height: 250px;
-  margin-top: 50px;
-  margin-left: 150px;
-  background-color: yellow;
-}
+        
+    .task{
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+    }
+    
+    .task button{
+    background: rgb(12, 124, 251);
+    border-radius: 5px;
+ /*   margin: 0px 5px;
+    padding: 3px 5px; */
+    border: none;
+    cursor: pointer;
+    color: white;
+    float: right;
+    }
+    
+    .header{
+    margin: 0.5em;
+    font-size: 1em;
+    text-align: center;
+    }
+  
+    .bigHeader{
+    margin: 0.5em;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    }
+    .addButton {
+      color: white;
+      font-weight: bold;
+      border: 1px, rgb(167, 198, 100);
+      background: linear-gradient(
+        to left top,
+        rgb(167, 198, 100),
+        rgb(76, 150, 203)
+      );
+    }
+    
+    .create-task input[type=text]{
+    margin: 2.5em 2em;
+    width: 80%;
+    outline: none;
+    border: none;
+    padding: 0.7em;
+    }
